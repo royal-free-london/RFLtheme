@@ -30,5 +30,5 @@ devtools::install_github('royal-free-london/RFLtheme')
 ## How to use and examples
 
 ```r
-...comings soon...
+...coming soon...
 ```
