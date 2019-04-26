@@ -1,0 +1,12 @@
+Package: RFLtheme
+Title: sets styles and themes for visualisation and reporting related to the Royal Free London
+Version: 0.1.0
+Authors@R: person("Edward", "Watkinson", email = "edward.watkinson@nhs.net", role = c("aut", "cre"))
+Description: This package uses the Royal Free London and NHS style guides to apply colours, formatting of ggplot graphics, 
+             and hopefully in the future RMarkdown templates and themes.
+Depends: R (>= 3.5.1)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: ggplot2
