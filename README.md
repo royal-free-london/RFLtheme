@@ -4,12 +4,12 @@ RFLtheme README
 RFLtheme R package
 ------------------
 
-This is a package for theme-ing data visualisations. the core function is `rfl_style()` which allows you to style `ggplot2` charts according to the Royal Free's style guide and charts library (taking a significant lead from the BBC's ![bbplot package](https://github.com/bbc/bbplot)).
+This is a package for theme-ing data visualisations. the core function is `rfl_style()` which allows you to style `ggplot2` charts according to the Royal Free's style guide and charts library (taking a significant lead from the BBC's ![bbplot package](https://github.com/bbc/bbplot)). You can also use colours form our corporate colour palette with the `rfl_colour()` and `rfl_scale_*()` funcitons, borrowing very heavily from ![this blogplot](https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2) by ![Simon Jackson](https://twitter.com/drsimonj)
 
-It predominately works as a way to access our trust colour palette and apply a consistent theme to charts. In the future we may include markdown templates and styles.
+In the future we may include markdown templates and styles.
 
-Instalation
------------
+Installation
+------------
 
 You will have to install it directly from Github using devtools.
 
@@ -26,5 +26,5 @@ How to use and examples
 -----------------------
 
 ``` r
-...comings soon...
+...coming soon...
 ```
