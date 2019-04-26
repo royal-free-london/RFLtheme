@@ -1,0 +1,12 @@
+---
+title: "RFLtheme README"
+author: "Ed"
+date: "26 April 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## RFLtheme: a package for themeing visualisations from the Royal Free London NHS Foundation Trust.
