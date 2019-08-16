@@ -84,7 +84,7 @@ rfl_show_axis_titles <- function() {
 
   ggplot2::update_geom_defaults("col", list(fill = blue))
   ggplot2::update_geom_defaults("line", list(fill = blue,
-                                             colour = blue))
+                                             colour = blue, size=1.5))
 
   ggplot2::update_geom_defaults("point", list(
     shape = 21,
