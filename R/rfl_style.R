@@ -57,7 +57,8 @@ rfl_style <- function() {
 #' Show Axis Titles on an rfl_style() Styled ggplot2 graphic
 #'
 #' @return ggplot::theme object to be added (+) to ggplot2 graphic
-#' @examples
+#' @param which either x, y, or both (default)
+#'  @examples
 #' rfl_show_axis_titles()
 #'
 #' ggplot(data, aes(x=xaxis, y=yaxis)) +
@@ -66,11 +67,11 @@ rfl_style <- function() {
 #'   labs(x="something", y="something else") +
 #'   rfl_show_axis_titles()
 #' @export
-rfl_show_axis_titles <- function() {
-  ggplot2::theme(
-    #Change axis titles from default
-    axis.title.x = element_text(),
-    axis.title.y = element_text()
+rfl_show_axis_titles <- function(which='both') {
+  switch(which,
+    'x' = ggplot2::theme(axis.title.x = ggplot2::element_text()),
+    'y' = ggplot2::theme(axis.title.y = ggplot2::element_text()),
+    'both' = ggplot2::theme(axis.title.x = ggplot2::element_text(),axis.title.y = ggplot2::element_text())
   )
 }
 

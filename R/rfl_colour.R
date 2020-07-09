@@ -35,7 +35,7 @@ colours <- data.frame(
 #' geom_line(colour=rfl_colour("blue"))
 #' rfl_colour("green")
 #' @export
-rfl_colour <- function(colour, alpha = 1) {
+rfl_colour <- function(colour, alpha = 0.7) {
   ##scale alpha (transparency/shade) to fit with other definitions
   alpha <- alpha * 255
 
