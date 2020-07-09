@@ -25,25 +25,25 @@ rfl_style <- function() {
   ggplot2::theme_minimal() +
     ggplot2::theme(
       #white background and no grid lines
-      panel.grid.major = element_blank(),
-      panel.grid.minor = element_blank(),
-      panel.background = element_blank(),
-      panel.grid.major.y = element_line(color = "grey"),
-      axis.ticks.x = element_line(color = "grey"),
+      panel.grid.major = ggplot2::element_blank(),
+      panel.grid.minor = ggplot2::element_blank(),
+      panel.background = ggplot2::element_blank(),
+      panel.grid.major.y = ggplot2::element_line(color = "grey"),
+      axis.ticks.x = ggplot2::element_line(color = "grey"),
 
       #no axis titles by default - change by adding rfl_show_axis_titles()
-      axis.title.x = element_blank(),
-      axis.title.y = element_blank(),
-      axis.text.x = element_text(angle = 45, hjust = 1),
+      axis.title.x = ggplot2::element_blank(),
+      axis.title.y = ggplot2::element_blank(),
+      axis.text.x = ggplot2::element_text(angle = 45, hjust = 1),
 
       #left justified title and subtitle
-      plot.title = element_text(
+      plot.title = ggplot2::element_text(
         family = font,
         face = 'bold',
         size = 18,
         hjust = 0
       ),
-      plot.subtitle = element_text(
+      plot.subtitle = ggplot2::element_text(
         family = font,
         face = 'italic',
         size = 11,
